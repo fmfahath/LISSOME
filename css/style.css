@@ -68,3 +68,29 @@ section{
     transition: 0.5s;
 }
 
+/* section - gallery */
+
+.card{
+    align-items: center;
+}
+
+.card .inner{
+    /* height: 300px; */
+    /* width: 300px; */
+}
+
+#gallery img{
+    /* align-items: center; */
+    height: 300px;
+    width: 300px;
+    transition: 1s;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
