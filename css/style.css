@@ -25,6 +25,11 @@ section{
     font-weight:450;
 }
 
+#nav-signup{
+    color: red;
+    /* font-weight: 500; */
+}
+
 .logoText{
     font-size: 25px;
     font-weight: bold;
@@ -52,8 +57,16 @@ section{
 
 /* section - explore */
 
-#explore img{
+#explore img, #libraries img{
     border-radius: 50px;
+    height: 400px;
+    width: auto;
+    transition: 1s;
+}
+
+#explore img:hover{
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 #LISSOM{
@@ -66,6 +79,17 @@ section{
     font-weight: 500;
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
+}
+
+/* libraries */
+
+#libraries img{
+    z-index: -1;
+}
+
+#libraries img:hover{
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 /* section - gallery */
@@ -93,4 +117,16 @@ section{
 .card img:hover{
     transform: scale(1.5);
     transition: 1s;
+}
+
+/* sign up */
+
+#signup form{
+    text-align: center;
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+#signup button{
+    align-items: center;
 }
