@@ -13,6 +13,18 @@ section{
     align-items: center;
 }
 
+/* nav-bar */
+
+#nav-bar{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar ul li a{
+    font-weight:450;
+}
+
 .logoText{
     font-size: 25px;
     font-weight: bold;
@@ -38,7 +50,12 @@ section{
     transition: 1s;
 }
 
-/* section */
+/* section - explore */
+
+#explore img{
+    border-radius: 50px;
+}
+
 #LISSOM{
     color: red;
 }
