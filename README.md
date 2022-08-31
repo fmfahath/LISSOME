@@ -1,5 +1,4 @@
 # LISSOME
-LISSOM Agency Template Design 
+LISSOM - Web Template Design 
 
-log:29/08/2022-l 
-log:29/08/2022-r
+HTML, CSS, Bootstrap 4
