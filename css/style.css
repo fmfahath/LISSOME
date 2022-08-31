@@ -121,7 +121,16 @@ section{
 
 /* sign up */
 
+#signup  {
+    background-image: url('../img/7.png'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 600px;
+}
+
+
 #signup form{
+    background-color: white;
     text-align: center;
     padding: 40px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
